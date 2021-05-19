@@ -3,7 +3,7 @@ class taskDbRepo
 {
     private $host = "localhost";
     private $username = "root";
-    private $password = "Fastbird$16";
+    private $password = ""; // Add personal password
     private $database = "list";
     public $connection;
 

@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "Fastbird$16"; // ADD PERSONAL PASSWORD
+$password = ""; // ADD PERSONAL PASSWORD
 $dbname = "list";
 
 // Create connection

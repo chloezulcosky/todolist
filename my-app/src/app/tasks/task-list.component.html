@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<div>
+  <button id="show" (click)="toggleDescriptions()">{{showDescription ? 'Hide' : 'Show' }} Descriptions</button>
+</div>
+<div>
+  <table>
+    <thead>
+    <tr>
+      <th>TASK</th>
+      <th>STATUS</th>
+      <th *ngIf='showDescription'>DESCRIPTION</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let task of tasks">
+      <td> {{task.taskName}} </td>
+      <td> {{task.status}} </td>
+      <td *ngIf='showDescription'>
+        {{task.taskDescription}}
+      </td>
+      <td>
+        <button id="complete" (click)="changeStatus(task)"><i class="fa fa-edit"></i></button>
+        <button class="btn" id="remove" (click)="deleteTask(task.taskID)"><i class="fa fa-trash"></i></button>
+      </td>
+      <td>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <button id="back" (click)="onHome()">Return Home</button>
+</div>
+</body>

@@ -1,0 +1,17 @@
+<body>
+  <div>
+    <form #form ="ngForm">
+      <div>
+        <input id="tName" name="tName" #someInput placeholder="New Task" class="form-control" [(ngModel)]="userSettings.tName">
+      </div>
+      <div>
+        <input id="tDescription" name="tDescription" #someInput placeholder="Task Description" class="form-control" [(ngModel)]="userSettings.tDescription">
+      </div>
+      <button id="add" (click)="addTask(form)">Add</button>
+    </form>
+  </div>
+
+  <div>
+    <button id="tasks" (click)="onTasks()">Return to Tasks</button>
+  </div>
+</body>

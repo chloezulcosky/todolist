@@ -1,0 +1,18 @@
+h1 {
+  color: Black;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+
+li {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+h3, p {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+}

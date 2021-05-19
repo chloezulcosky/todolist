@@ -1,0 +1,32 @@
+p {
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+th, tr {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  column-width: 150px;
+}
+
+tr {
+  font-size: 15px;
+}
+
+th {
+  font-size: 18px;
+}
+
+table {
+  table-layout: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 50px;
+}
+
+button {
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+}
+

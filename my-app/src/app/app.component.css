@@ -1,0 +1,36 @@
+body{
+  background-color: #12475f !important;
+}
+
+h1 {
+  color: Black;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: Georgia, serif;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: steelblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Georgia, serif;
+}
+
+li a:hover {
+  background-color: #111;
+}
